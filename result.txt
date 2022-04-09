@@ -1,0 +1,133 @@
+# JMH version: 1.35
+# VM version: JDK 11.0.14.1, OpenJDK 64-Bit Server VM, 11.0.14.1+10-LTS
+# VM invoker: C:\Java\jdk-11\bin\java.exe
+# VM options: -Dfile.encoding=UTF8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: experiment.backronym_micro_benchmark.Main.benchmarkBackronym
+
+# Run progress: 0,00% complete, ETA 00:10:00
+# Warmup Fork: 1 of 1
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+# Warmup Iteration   1: 1655548,549 ops/s
+# Warmup Iteration   2: 1631581,681 ops/s
+# Warmup Iteration   3: 1657903,361 ops/s
+# Warmup Iteration   4: 1658450,931 ops/s
+# Warmup Iteration   5: 1657141,302 ops/s
+Iteration   1: 1654989,261 ops/s
+Iteration   2: 1657944,026 ops/s
+Iteration   3: 1655621,787 ops/s
+Iteration   4: 1655720,186 ops/s
+Iteration   5: 1655718,947 ops/s
+
+# Run progress: 16,67% complete, ETA 00:08:21
+# Fork: 1 of 2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+# Warmup Iteration   1: 1663448,513 ops/s
+# Warmup Iteration   2: 1687923,058 ops/s
+# Warmup Iteration   3: 1688567,314 ops/s
+# Warmup Iteration   4: 1686547,739 ops/s
+# Warmup Iteration   5: 1686160,515 ops/s
+Iteration   1: 1686821,147 ops/s
+Iteration   2: 1688943,195 ops/s
+Iteration   3: 1685577,009 ops/s
+Iteration   4: 1684367,554 ops/s
+Iteration   5: 1687057,595 ops/s
+
+# Run progress: 33,33% complete, ETA 00:06:41
+# Fork: 2 of 2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+# Warmup Iteration   1: 1659591,212 ops/s
+# Warmup Iteration   2: 1687588,605 ops/s
+# Warmup Iteration   3: 1692103,444 ops/s
+# Warmup Iteration   4: 1674726,344 ops/s
+# Warmup Iteration   5: 1546340,361 ops/s
+Iteration   1: 1559783,600 ops/s
+Iteration   2: 1547892,235 ops/s
+Iteration   3: 1557071,979 ops/s
+Iteration   4: 1561396,406 ops/s
+Iteration   5: 1591018,645 ops/s
+
+
+Result "experiment.backronym_micro_benchmark.Main.benchmarkBackronym":
+  1624992,937 ±(99.9%) 99483,023 ops/s [Average]
+  (min, avg, max) = (1547892,235, 1624992,937, 1688943,195), stdev = 65801,860
+  CI (99.9%): [1525509,913, 1724475,960] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.14.1, OpenJDK 64-Bit Server VM, 11.0.14.1+10-LTS
+# VM invoker: C:\Java\jdk-11\bin\java.exe
+# VM options: -Dfile.encoding=UTF8
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: experiment.backronym_micro_benchmark.Main.benchmarkBackronymBestPractices
+
+# Run progress: 50,00% complete, ETA 00:05:00
+# Warmup Fork: 1 of 1
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+# Warmup Iteration   1: 930729,497 ops/s
+# Warmup Iteration   2: 1002403,202 ops/s
+# Warmup Iteration   3: 1021803,662 ops/s
+# Warmup Iteration   4: 1020961,651 ops/s
+# Warmup Iteration   5: 1021228,688 ops/s
+Iteration   1: 1020828,502 ops/s
+Iteration   2: 1021454,619 ops/s
+Iteration   3: 1021725,503 ops/s
+Iteration   4: 1021151,005 ops/s
+Iteration   5: 1021564,887 ops/s
+
+# Run progress: 66,67% complete, ETA 00:03:20
+# Fork: 1 of 2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+# Warmup Iteration   1: 950404,770 ops/s
+# Warmup Iteration   2: 967395,321 ops/s
+# Warmup Iteration   3: 980829,658 ops/s
+# Warmup Iteration   4: 980637,642 ops/s
+# Warmup Iteration   5: 980009,415 ops/s
+Iteration   1: 980633,528 ops/s
+Iteration   2: 980726,827 ops/s
+Iteration   3: 980421,330 ops/s
+Iteration   4: 980670,075 ops/s
+Iteration   5: 980237,415 ops/s
+
+# Run progress: 83,33% complete, ETA 00:01:40
+# Fork: 2 of 2
+Picked up JAVA_TOOL_OPTIONS: -Dfile.encoding=UTF8
+# Warmup Iteration   1: 974724,603 ops/s
+# Warmup Iteration   2: 990079,091 ops/s
+# Warmup Iteration   3: 1000286,030 ops/s
+# Warmup Iteration   4: 999363,626 ops/s
+# Warmup Iteration   5: 999251,454 ops/s
+Iteration   1: 951686,145 ops/s
+Iteration   2: 943702,791 ops/s
+Iteration   3: 948625,548 ops/s
+Iteration   4: 961980,289 ops/s
+Iteration   5: 947093,202 ops/s
+
+
+Result "experiment.backronym_micro_benchmark.Main.benchmarkBackronymBestPractices":
+  965577,715 ±(99.9%) 24856,019 ops/s [Average]
+  (min, avg, max) = (943702,791, 965577,715, 980726,827), stdev = 16440,718
+  CI (99.9%): [940721,696, 990433,734] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:10:01
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                              Mode  Cnt        Score       Error  Units
+Main.benchmarkBackronym               thrpt   10  1624992,937 ± 99483,023  ops/s
+Main.benchmarkBackronymBestPractices  thrpt   10   965577,715 ± 24856,019  ops/s

@@ -1,0 +1,11 @@
+.settings
+.project
+.classpath
+.factorypath
+/bin
+/build
+/test-classes
+/target
+*.bak
+.idea
+*.iml
